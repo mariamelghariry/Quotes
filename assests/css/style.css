@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.h-min-75{
+    min-height: 75%;
+}
+
+.btn{
+    padding: 1rem 2.625rem;
+    border: none;
+}
+.btn:hover {
+    background-color: #c875b6;
+}
+:not(.btn-check)+.btn:active{
+    background-color: #b1569e;
+
+}

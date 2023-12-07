@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes</title>
+    <!-- !==========GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- !==============> BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css" />
+    <!-- !==============> MAIN CSS -->
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <!-- !==============> FONTOWESOME -->
+    <script
+      src="https://kit.fontawesome.com/2a9ac34a9d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="vh-100 d-flex justify-content-center align-items-center">
+      <div
+        class="quote_card bg-light w-75 h-min-75 rounded-4 d-flex pt-5 text-center align-items-center flex-column"
+      >
+        <h1 class="display-3 fw-bolder">Quote of the Day</h1>
+        <p class="fs-4">Press the button below to recieve a random quote!</p>
+        <button class="btn btn-dark mt-5" onclick="generateRandomQuote()">New quote</button>
+        <div class="d-flex  mt-5 fs-3">
+          <div id="quote"></div>
+        </div>
+      </div>
+    </header>
+
+    <script src="assests/js/bootstrap.bundle.min.js"></script>
+    <script src="assests/js/main.js"></script>
+  </body>
+</html>
